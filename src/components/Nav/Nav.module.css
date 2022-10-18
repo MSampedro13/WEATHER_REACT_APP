@@ -1,0 +1,17 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.logo {
+  margin-right: 20px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  font-family: 'Times New Roman', Times, serif;
+}

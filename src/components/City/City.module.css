@@ -1,0 +1,27 @@
+.city {
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 15rem;
+}
+
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.name {
+    padding: 0.25rem 1rem;
+    border-bottom: dashed;
+}
+
+.main {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

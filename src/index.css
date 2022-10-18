@@ -1,0 +1,13 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+input {
+  font-family: "Quicksand", sans-serif;
+}
+
+:root {
+  --border-color: #d8c516;
+}
