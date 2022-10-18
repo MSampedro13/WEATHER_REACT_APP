@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import s from "./City.module.css";
 
-const apiKey = "d9fb075e20de7cb0c86f432053771126";
+const apiKey = process.env.REACT_APP_API_KEY;
 
 export default function Ciudad({ match }) {
   const { id } = useParams();
